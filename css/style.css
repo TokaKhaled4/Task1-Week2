@@ -756,39 +756,39 @@ padding-left: 120px;
     .sec3_title {
         color: rgba(31, 31, 31, 1);
         font-weight: 600;
-        font-size: 38px;
+        font-size: 33px;
         margin-bottom: 50px;
-        width: 400px;
+        width: 390px;
     }
 
     .sec3_p {
         color: rgba(84, 84, 84, 1);
         font-weight: 500;
-        font-size: 22px;
-        width: 450px;
+        font-size: 20px;
+        width: 350px;
         margin-bottom: 80px;
     }
 
     .plus_title {
         color: rgba(31, 31, 31, 1);
         font-weight: 600;
-        font-size: 18px;
+        font-size: 15px;
         margin-bottom: 30px;
 
     }
 
     .plus_icon1 {
-        margin-left: 140px;
+        margin-left: 100px;
         cursor: pointer;
     }
 
     .plus_icon2 {
-        margin-left: 40px;
+        margin-left: 10px;
         cursor: pointer;
     }
 
     .plus_line {
-        width: 400px;
+        width: 320px;
         height: 0px;
         border: 1px solid rgba(218, 218, 218, 1);
         margin-bottom: 30px;
@@ -811,10 +811,10 @@ padding-left: 120px;
 
     .sec4_p {
         position: absolute;
-        font-size: 38px;
+        font-size: 33px;
         color: rgba(31, 31, 31, 1);
         font-weight: 600;
-        width: 504px;
+        width: 350px;
     }
 
     .icon1 {
@@ -835,8 +835,8 @@ padding-left: 120px;
     .sec4_icons p {
         color: rgba(84, 84, 84, 1);
         font-weight: 500;
-        font-size: 20px;
-        width: 320px;
+        font-size: 15px;
+        width: 250px;
 
     }
 
@@ -873,29 +873,29 @@ padding-left: 120px;
         position: relative;
         overflow: hidden;
         margin-left: 10px;
-        margin-top: 100px;
+        margin-top: 40px;
         width: 100%;
     }
 
     .sec5 div {
         background-color: rgba(31, 31, 31, 1);
         border-radius: 4px;
-        width: 400px;
-        height: 400px;
+        width: 330px;
+        height: 330px;
         padding-left: 60px;
 
     }
 
     .black1 {
         position: absolute;
-        left: 30px;
+        left: 10px;
         z-index: 10;
         top: 200px;
     }
 
     .black2 {
         position: absolute;
-        left: 30px;
+        left: 10px;
         z-index: 10;
         top: 650px;
     }
@@ -924,7 +924,7 @@ padding-left: 120px;
 
     .btn_arr1 {
         bottom: 0;
-        left: 150px;
+        left: 10px;
     }
 
     .btn_arr2 {
@@ -942,7 +942,7 @@ padding-left: 120px;
         color: rgba(255, 255, 255, 1);
         font-weight: 600;
         font-size: 18px;
-        top: 270px;
+        top: 230px;
         left: 160px;
     }
 
@@ -951,15 +951,15 @@ padding-left: 120px;
         color: rgba(146, 146, 146, 1);
         font-weight: 500;
         font-size: 18px;
-        top: 300px;
+        top: 260px;
         left: 160px;
     }
 
     .p_quote {
         color: rgba(255, 255, 255, 1);
         font-weight: 500;
-        font-size: 20px;
-        width: 300px;
+        font-size: 15px;
+        width: 250px;
         margin-bottom: 40px;
     }
 
@@ -979,18 +979,18 @@ padding-left: 120px;
     .sec6_title {
         color: rgba(31, 31, 31, 1);
         font-weight: 600;
-        font-size: 38px;
-        width: 400px;
+        font-size: 33px;
+        width: 300px;
         margin-bottom: 50px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .sec6_p {
         color: rgba(84, 84, 84, 1);
         font-weight: 500;
         font-size: 20px;
-        width: 400px;
-        margin-left: 40px;
+        width: 300px;
+        margin-left: 20px;
 
     }
 
@@ -1000,13 +1000,13 @@ padding-left: 120px;
         background-color: rgba(255, 255, 255, 1);
         height: 104px;
         border-radius: 4px;
-        width: 400px;
+        width: 300px;
         bottom: -52px;
         z-index: 2;
         padding: 10px 10px;
         display: flex;
         justify-content: space-between;
-        left: 40px;
+        left: 20px;
     }
 
     .sub {
@@ -1017,7 +1017,7 @@ padding-left: 120px;
         border: none;
         border-radius: 4px;
         width: 110px;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 600;
         margin-top: 15px;
     }
@@ -1025,14 +1025,14 @@ padding-left: 120px;
     .em {
         color: rgba(140, 140, 140, 1);
         font-weight: 500;
-        font-size: 18px;
+        font-size: 15px;
         display: inline-block;
         margin-top: 20px;
     }
 
     .ev_img {
         padding-right: 10px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     /* footer///////////////////////////////////////////////////////////// */
@@ -1040,7 +1040,7 @@ padding-left: 120px;
         background-color: rgba(31, 31, 31, 1);
         height: 612px;
         z-index: 0;
-        padding-left: 105px;
+        padding-left: 80px;
         padding-top: 200px;
         display: flex;
         width: 100%;
