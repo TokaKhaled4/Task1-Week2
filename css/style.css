@@ -618,12 +618,13 @@ footer {
 /* responsive for mobile */
 
 @media (max-width: 768px) {
+   
 
     header {
         margin-top: 20px;
         margin-left: 0;
         height: auto;
-        width: 400px;
+        width: 100%;
     }
 
     .navbar-toggler {
@@ -649,8 +650,8 @@ footer {
         margin-left: 10px;
         color: rgba(84, 84, 84, 1);
         font-weight: 500;
-        font-size: 25px;
-        width: 400px;
+        font-size: 20px;
+        width: 300px;
         margin-bottom: 80px;
     }
 
@@ -668,15 +669,15 @@ footer {
     .no {
         color: rgba(84, 84, 84, 1);
         font-weight: 400;
-        font-size: 45px;
+        font-size: 30px;
         padding-left: 25px;
     }
 
     .no_titles {
         color: rgba(84, 84, 84, 1);
         font-weight: 400;
-        font-size: 17px;
-        padding-left: 18px;
+        font-size: 10px;
+        padding-left: 25px;
 
     }
 
@@ -707,6 +708,7 @@ footer {
         margin-top: 100px;
         position: relative;
         width: 500px;
+        display: none;
     }
 
     .line {
@@ -717,72 +719,81 @@ footer {
     .sec2_title {
 
         font-size: 38px;
-
+padding-left: 120px;
     }
 
     .service {
         display: grid;
         row-gap: 30px;
-        margin-left: 80px;
+        margin-left: 10px;
+    }
+    .p_icon {
+        color: rgba(84, 84, 84, 1);
+        font-weight: 400;
+        font-size: 22px;
+        margin-top: 30px;
+        width: 330px;
     }
 
- /* section3////////////////////////////////////////////////////// */
- .sec3_img{
-    display: none;
-}
- .sec3 {
-    margin-left: 10px;
-    margin-top: 0px;
-    height: 712px;
-    display: flex;
-    width: 500px;
-}
+    /* section3////////////////////////////////////////////////////// */
+    .sec3_img {
+        display: none;
+    }
 
-.sec3_content {
-    margin-left: 0px;
-}
+    .sec3 {
+        margin-left: 10px;
+        margin-top: 0px;
+        height: 712px;
+        display: flex;
+        width: 500px;
+        display: none;
+    }
 
-.sec3_title {
-    color: rgba(31, 31, 31, 1);
-    font-weight: 600;
-    font-size: 38px;
-    margin-bottom: 50px;
-    width: 400px;
-}
+    .sec3_content {
+        margin-left: 0px;
+    }
 
-.sec3_p {
-    color: rgba(84, 84, 84, 1);
-    font-weight: 500;
-    font-size: 22px;
-    width: 450px;
-    margin-bottom: 80px;
-}
+    .sec3_title {
+        color: rgba(31, 31, 31, 1);
+        font-weight: 600;
+        font-size: 38px;
+        margin-bottom: 50px;
+        width: 400px;
+    }
 
-.plus_title {
-    color: rgba(31, 31, 31, 1);
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 30px;
+    .sec3_p {
+        color: rgba(84, 84, 84, 1);
+        font-weight: 500;
+        font-size: 22px;
+        width: 450px;
+        margin-bottom: 80px;
+    }
 
-}
+    .plus_title {
+        color: rgba(31, 31, 31, 1);
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 30px;
 
-.plus_icon1 {
-    margin-left: 140px;
-    cursor: pointer;
-}
+    }
 
-.plus_icon2 {
-    margin-left: 40px;
-    cursor: pointer;
-}
+    .plus_icon1 {
+        margin-left: 140px;
+        cursor: pointer;
+    }
 
-.plus_line {
-    width: 400px;
-    height: 0px;
-    border: 1px solid rgba(218, 218, 218, 1);
-    margin-bottom: 30px;
+    .plus_icon2 {
+        margin-left: 40px;
+        cursor: pointer;
+    }
 
-}
+    .plus_line {
+        width: 400px;
+        height: 0px;
+        border: 1px solid rgba(218, 218, 218, 1);
+        margin-bottom: 30px;
+
+    }
 
     /* section4////////////////////////////////////////////////////// */
 
@@ -792,12 +803,13 @@ footer {
         margin-left: 10px;
         position: relative;
         width: 500px;
+        display: none;
     }
-    
+
     .sec4_img {
-       display: none;
+        display: none;
     }
-    
+
     .sec4_p {
         position: absolute;
         font-size: 38px;
@@ -805,37 +817,37 @@ footer {
         font-weight: 600;
         width: 504px;
     }
-    
+
     .icon1 {
         position: absolute;
         top: 230px;
     }
-    
+
     .icon2 {
         position: absolute;
         top: 430px;
     }
-    
+
     .icon3 {
         position: absolute;
         top: 630px;
     }
-    
+
     .sec4_icons p {
         color: rgba(84, 84, 84, 1);
         font-weight: 500;
         font-size: 20px;
         width: 320px;
-    
+
     }
-    
+
     .sec4_icons span {
         color: rgba(31, 31, 31, 1);
         font-weight: 700;
         font-size: 30px;
     }
 
-    
+
     .line1 {
         position: absolute;
         top: 3290px;
@@ -844,7 +856,7 @@ footer {
         border: 1px solid rgba(155, 155, 155, 1);
         transform: rotate(90deg);
     }
-    
+
     .line2 {
         position: absolute;
         left: 0px;
@@ -855,7 +867,7 @@ footer {
     }
 
 
-    /* section5////////////////////////////////////////////////////// */ 
+    /* section5////////////////////////////////////////////////////// */
     .sec5 {
         height: 1300px;
         display: grid;
@@ -864,31 +876,32 @@ footer {
         margin-left: 10px;
         margin-top: 100px;
         width: 500px;
+        display: none;
     }
-    
+
     .sec5 div {
         background-color: rgba(31, 31, 31, 1);
         border-radius: 4px;
         width: 400px;
         height: 400px;
         padding-left: 60px;
-       
+
     }
-    
+
     .black1 {
         position: absolute;
         left: 30px;
         z-index: 10;
-       top: 200px;
+        top: 200px;
     }
-    
+
     .black2 {
         position: absolute;
         left: 30px;
         z-index: 10;
-       top: 650px;
+        top: 650px;
     }
-    
+
     .p_sec5 {
         position: absolute;
         margin-left: 10px;
@@ -896,11 +909,11 @@ footer {
         font-weight: 600;
         font-size: 38px;
     }
-    
+
     .sec5_img {
-       display: none;
+        display: none;
     }
-    
+
     .sec5 button {
         background-color: rgba(241, 241, 241, 1);
         height: 73px;
@@ -910,22 +923,22 @@ footer {
         cursor: pointer;
         position: absolute;
     }
-    
+
     .btn_arr1 {
         bottom: 0;
         left: 150px;
     }
-    
+
     .btn_arr2 {
         bottom: 0;
         left: 250px;
     }
-    
+
     .quote_img {
         margin-bottom: 20px;
         margin-top: 20px;
     }
-    
+
     .name {
         position: absolute;
         color: rgba(255, 255, 255, 1);
@@ -934,7 +947,7 @@ footer {
         top: 270px;
         left: 160px;
     }
-    
+
     .loc {
         position: absolute;
         color: rgba(146, 146, 146, 1);
@@ -943,7 +956,7 @@ footer {
         top: 300px;
         left: 160px;
     }
-    
+
     .p_quote {
         color: rgba(255, 255, 255, 1);
         font-weight: 500;
@@ -952,9 +965,9 @@ footer {
         margin-bottom: 40px;
     }
 
-     /* section6////////////////////////////////////////////////////// */
+    /* section6////////////////////////////////////////////////////// */
 
-     .sec6 {
+    .sec6 {
         position: relative;
         height: 490px;
         width: 979px;
@@ -963,8 +976,9 @@ footer {
         text-align: center;
         z-index: 1;
         width: 500px;
+        display: none;
     }
-    
+
     .sec6_title {
         color: rgba(31, 31, 31, 1);
         font-weight: 600;
@@ -973,16 +987,16 @@ footer {
         margin-bottom: 50px;
         margin-left: 40px;
     }
-    
+
     .sec6_p {
         color: rgba(84, 84, 84, 1);
         font-weight: 500;
         font-size: 20px;
         width: 400px;
         margin-left: 40px;
-    
+
     }
-    
+
     .email_div {
         position: absolute;
         box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.14);
@@ -995,9 +1009,9 @@ footer {
         padding: 10px 10px;
         display: flex;
         justify-content: space-between;
-       left: 40px;
+        left: 40px;
     }
-    
+
     .sub {
         cursor: pointer;
         background-color: rgba(31, 31, 31, 1);
@@ -1010,7 +1024,7 @@ footer {
         font-weight: 600;
         margin-top: 15px;
     }
-    
+
     .em {
         color: rgba(140, 140, 140, 1);
         font-weight: 500;
@@ -1018,12 +1032,12 @@ footer {
         display: inline-block;
         margin-top: 20px;
     }
-    
+
     .ev_img {
         padding-right: 10px;
         margin-left: 10px;
     }
-    
+
     /* footer///////////////////////////////////////////////////////////// */
     footer {
         background-color: rgba(31, 31, 31, 1);
@@ -1033,9 +1047,9 @@ footer {
         padding-top: 200px;
         display: flex;
         width: 500px;
-    
+        display: none;
     }
-    
+
     .p_logo {
         color: rgba(209, 209, 209, 1);
         margin-top: 50px;
@@ -1044,46 +1058,46 @@ footer {
         width: 322px;
         margin-bottom: 70px;
     }
-    
+
     .face {
         padding-right: 20px;
     }
-    
+
     .x {
         padding-right: 20px;
     }
-    
+
     .insta {
         padding-right: 20px;
     }
-    
+
     .sev_title {
 
         display: none;
     }
-    
+
     .our_sev1 {
         display: none;
     }
-    
+
     .our_sev2 {
         display: none;
     }
-    
+
     .our_sev3 {
         display: none;
     }
-    
+
     .sevlist {
         display: none;
-    
+
     }
-    
+
     .sevlist li {
-    
+
         display: none;
     }
-    
+
     .p_sev {
         display: none;
     }
